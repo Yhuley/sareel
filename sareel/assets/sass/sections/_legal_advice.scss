@@ -1,0 +1,37 @@
+.next-prev-btn-2 {
+    @include dFlex($flex);
+    @include justCont(space-between);
+    @include alignItem(center);
+
+    padding: 0 50px;
+    background: var(--background-1);
+    margin-top: 40px;
+    height: 60px;
+    a {
+        font-weight: bold;
+        font-family: var(--heading-font);
+    }
+    .active a,
+    a:hover{
+        color: var(--primary-color);
+    }
+}
+.single-content.casecontent {
+    .para, .title {
+        margin-top: 13px;
+    }
+    .info {
+        margin-left: 0;
+        margin-right: 50px;
+    }
+    .read-more-btn {
+        margin-top: 20px;
+    }
+    .meta-info .info i{
+        color: var(--primary-color);
+    }
+
+}
+.single-item{
+    @include box-shadow(0px, 0px, 15px, #8A56310D, $inset: false);
+}

@@ -1,0 +1,44 @@
+.case-eval-content{
+    .title{
+        color: $white;
+    }
+    .para{
+        margin-top: 15px;
+        color: #E4CDBB;
+        line-height: 30px;
+        max-width: 465px;
+    }
+    .para-2{
+        margin-top: 30px;
+    }
+    .call-us{
+        color: #FFF6F1;
+        display: block;
+    }
+    .phone-number{
+        font-size: 42px;
+        color: $white;
+    }
+    .phone-box {
+        margin-top: 30px;
+        background: url(../img/case/bg.png) no-repeat scroll center top;
+        max-width: 440px;
+    }
+}
+.case-eval-form.popupchat-form {
+    textarea{
+        width: 100%;
+        padding: 15px 20px;        
+        @include placeholder-color($placeholderColor);
+    }
+}
+.primary-btn.case-eval-btn:hover{
+    color: $white;
+}
+.case-eval-form.popupchat-form {
+    padding: 40px;
+    background: #814D28;
+    input, textarea {
+        border: none;
+    }
+}

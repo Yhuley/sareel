@@ -1,0 +1,84 @@
+.sp-service-2 {
+    .service-wrapper{
+        padding-top: 100px;
+        padding-bottom: 120px;
+        position: relative;
+    }
+}
+.vaaber-img {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+}
+.service-tab-content .tab-img{
+    margin-top: 33px;
+}
+.vertical-tab-wrapper {
+    .custom-nav{
+        background: var(--background-1);
+    }
+    .nav-item{
+        display: block;
+        width: 100%;
+        padding: 0;
+        background: transparent;
+        + .nav-item{
+            border-top: 1px solid rgba(#717171, 0.1);
+        }
+    }
+    .nav-link {
+        font-family: var(--heading-font);
+        font-weight: 700;
+        font-size: 24px;
+        color: var(--paragraph-1-color);
+        padding: 40px;
+        @include dFlex($flex);
+        @include justCont(space-between);
+        @include alignItem(center);
+
+        i {
+            color: var(--primary-color);
+        }
+
+        &:hover,
+        &:hover i,
+        &.active i,
+        &.active {
+            background: var(--primary-color);
+            color: $white;
+        }
+    }
+}
+.tab-wrapper{
+    .nav-link{
+        font-size: 24px;
+        font-family: var(--heading-font);
+        font-weight: 700;
+        color: var(--heading-color);
+        padding: 22px 42px;
+        background: $white;
+
+        &:hover,
+        &.active {
+            background: var(--primary-color);
+            color: $white;
+        }
+    }
+}
+.service-tab-wrapper {
+    padding: 120px 0;
+}
+.tab-content {
+    .fight-heading{
+        line-height: 62px;
+    }
+}
+.tab-img {
+    padding-right: 100px;
+    text-align: right;
+}
+.custom-tab-content .tab-pane > div {
+    @include justCont(flex-end);
+    @include alignItem(center);
+}

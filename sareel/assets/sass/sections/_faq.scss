@@ -1,0 +1,53 @@
+.faq-area{
+    .card{
+        border: none;
+        border-radius: 0;
+        margin-top: 30px;
+    }
+    .card-body {
+        background: var(--background-1);
+    }
+    .title-wrap{
+        background: var(--primary-color);
+        padding: 20px 30px;
+        cursor: pointer;
+        @include dFlex($flex);
+        @include justCont(space-between);
+        @include alignItem(center);
+
+        .title{            
+            font-size: 18px;
+            font-weight: normal;
+            font-family: var(--body-font);            
+            color: $white;
+        }
+        
+        i {
+            @include transition($transition);
+            @include transform(rotate(-180deg));            
+            color: $white;
+        }
+        &.collapsed {
+            background: #F5F5F5;
+            i {
+                @include transform(rotate(0));
+            }
+            .title, i {
+                color: var(--paragraph-1-color);
+            }
+        }        
+    }
+}
+.question-area {
+    .comment-form-wrapper {
+        padding: 0;
+    }
+    .case-eval-form.popupchat-form {
+        padding: 0;
+        background: transparent;
+        margin-top: 73px;
+    }
+}
+.faq-area .contact-inner {
+    padding: 110px 120px 120px;
+}

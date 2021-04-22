@@ -1,0 +1,1291 @@
+/* 4k desktop: 1920px. */
+@media (min-width: 1650px){
+    .container {
+        max-width: 1640px;
+    }
+    .sp-service-2 {
+        margin-top: 226px;
+    }    
+    .tab-details {
+        margin-left: 140px;
+    }    
+    .case-study-page .casecontent .title {
+        margin-top: 25px;
+    }
+    .case-study-page .casecontent .para {
+        margin-top: 18px;
+    }   
+    .fight-list.challenge-list .fight-list-2 {
+        padding-left: 100px;
+    }    
+    .contact-inner {
+        padding: 120px;
+    }   
+    .breadcrumb-area-inner{
+        padding: 200px 0 192px;
+    }
+    .slider-area-2 .social-share-absolute {
+        width: 140px;
+    }
+    .fight-quote .heading{
+        font-size: 22px;
+    }
+    .slider-area3 .scrolldown-absolute {
+        bottom: 40px;
+    }
+    .slider-area-2.slider-area4::after {
+        width: 55%;
+    }
+}
+@media (min-width: 1400px) and (max-width: 1600px){
+    .container {
+        max-width: 1400px;
+    }
+    .slider-title {
+        font-size: 52px;
+    }
+    .quote-wrapper::after {
+        left: -70%;
+        top: 0%;
+    }
+    .img-absolute {
+        left: 40%;
+        bottom: -4%;
+    }
+    .service-content-hover .service-info {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .service-area {
+        padding-bottom: 120px;
+    }
+    .hatur-img {
+        display: flex;
+        align-items: flex-end;
+        height: 100%;
+    }
+    .caseslider-area {
+        margin-left: -45px;
+    }
+    .caseslider-area-bg::before {
+        right: -95.09%;
+    }
+    .member-absolute {
+        width: 80%;
+        padding: 5px 25px;
+    }
+    .breadcrumb-area-inner {
+        background-position: center right -333px;
+    }
+    .tab-details {
+        margin-left: 55px;
+    }
+    .challenge-section{
+        margin-top: 110px;
+    }
+    .member-details-wrap {
+        padding: 110px 0 120px;
+    }
+    .heading-content.heading-content-2 {
+        padding: 0;
+    }
+    .sp-service-2 {
+        margin-top: 170px;
+    } 
+    .csd-challenge{
+        margin-top: 120px;
+    } 
+    .slider-area3 .scrolldown-absolute {
+        bottom: 40px;
+    }
+    .slider-area-2.slider-area4::after {
+        width: 55%;
+    }
+}
+/* desktop: 1440px. */
+@media (min-width: 1400px) and (max-width: 1499px){
+    .container {
+        max-width: 1300px;
+    }
+}
+/* desktop: 1366px. (Only) */
+@media (min-width: 1300px) and (max-width: 1399px){
+    .slider-title {
+        font-size: 48px;
+    }
+    .slider-lg-img {
+        display: flex !important;
+        align-items: flex-end;
+        height: 100vh;
+    }
+    .challenge-section {
+        margin-top: 110px;
+    }
+    .challenge-wrappper {
+        padding: 120px 0 100px;
+    }
+    .result-section .challenge-wrappper {
+        padding: 120px 0 112px;
+    }
+    .fight-against-section.fight-against-about {
+        padding-bottom: 20px;
+    }
+    .case-study-wrapper .casestudy-slider-item .caseimg,
+    .case-study-wrapper .casestudy-slider-item .casecontent {
+        width: 100%;
+    }
+    .case-study-wrapper .casestudy-slider-item .casecontent {
+        padding: 30px;
+    }
+    .fight-heading {
+        font-size: 32px;
+    }
+}
+
+/* desktop: 1366px. */
+@media (min-width: 1170px) and (max-width: 1399px){
+    .fight-quote {
+        padding: 35px 30px 50px;
+    }
+    .fight-quote .heading {
+        line-height: 1.7;
+    }
+    .img-absolute {
+        left: 26%;
+        bottom: -16%;
+    }
+    .quote-wrapper::after {
+        left: -73%;
+    }
+    .service-content-hover .service-info {
+        padding-top: 52px;
+        padding-bottom: 52px;
+    }
+    .service-content .title{
+        font-size: 20px;
+    }
+    .hatur-img {
+        display: flex;
+        align-items: flex-end;
+        height: 100%;
+    }
+    .service-area {
+        padding-bottom: 120px;
+    }
+    .caseslider-area {
+        padding: 72px 30px 115px;
+    }
+    .single-counterup h2 {
+        font-size: 32px;
+    }
+    .single-counterup .counter-para {
+        font-size: 18px;
+    }
+    .caseslider-area-bg::before {
+        right: -90.6%;
+    }
+    .member-absolute {
+        width: 90%;
+        padding: 0 15px;
+    }
+    .slider-area-2 .slider-content {
+        padding-top: 50px;
+    }
+    .slider-area-2::after {
+        width: 72%;
+    }
+    .fight-against-section .fight-about .secondary-img {
+        width: 80%;
+        bottom: -50px;
+    }
+    .fight-against-section .fight-content {
+        max-width: 100%;
+        padding-bottom: 0;
+    }
+    .breadcrumb-area-inner {
+        background-position: center right -541px;
+    }
+    .vaaber-img {
+        right: 5%;
+    }
+    .service-tab-wrapper {
+        padding: 120px 0 113px;
+    }
+    .tab-img {
+        padding-right: 40px;
+    }
+    .member-details-wrap {
+        padding: 110px 0 120px;
+    }
+    .experience-section{
+        margin-top: 110px;
+    }
+    .fight-against-section.home-fight{
+        padding-bottom: 20px;
+    }
+    .fight-against-section.fight-against-about .fight-content {
+        padding-right: 0;
+    }
+    .mt-185{
+        margin-top: 185px;
+    }
+    .csd-about{
+        margin-top: 110px;
+    }
+}
+
+/* desktop: 1024px. */
+@media (min-width: 992px) and (max-width: 1169px){
+    .slider-title {
+        font-size: 40px;
+    }
+    .slider-dots-wrapper {
+        right: 40px;
+    }
+    .social-share-absolute {
+        right: 50px;
+    }
+    .navbar-area .nav-container .navbar-collapse .navbar-nav li + li {
+        margin-left: 20px;
+    }
+    .navbar-area .nav-container .nav-right-content ul li a,
+    .navbar-area .nav-container .navbar-collapse .navbar-nav li a {
+        font-size: 13px;
+    }
+    .slider-thumb-wrapper {
+        width: 100%;
+    }
+    .fight-video {
+        text-align: right;
+    }
+    .fight-video::after {
+        right: -72%;
+    }
+    .quote-wrapper::after {
+        top: 19%;
+        left: -65%;
+    }
+    .fight-heading {
+        font-size: 28px;
+    }
+    .img-absolute {
+        left: 46%;
+    }
+    .fight-against-section {
+        padding-bottom: 0;
+    }
+    .section-content, .service-area{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .hatur-img{
+        text-align: center;
+    }
+    .popup-video-absolute.absolute-center {
+        left: 59%;
+    }
+    .caseslider-area-bg::before {
+        right: -98.3%;
+    }
+    .caseslider-area {
+        padding: 72px 15px 115px;
+    }
+    .testimonial-img img {
+        width: 85px;
+        height: 85px;
+    }
+    .prev-slick-img img, .next-slick-img img {
+        width: 100px;
+        height: 100px;
+    }
+    .member-social .social-link i {
+        font-size: 10px;
+    }
+    .member-social .social-link {
+        line-height: 30px;
+    }
+    .member-absolute {
+        width: 90%;
+        padding: 0px 10px;
+    }
+    .member-info .title {
+        font-size: 18px;
+    }
+    .member-info .para {
+        font-size: 14px;
+    }
+    #signupModal .modal-close-btn {
+        right: 0;
+    }
+    #signupModal .signup-img-area img {
+        max-width: 400px;
+    }
+    .slider-area-2 .slider-content {
+        padding-top: 20px;
+    }
+    .slider-area-2::after {
+        width: 100%;
+    }
+    .slider-2-pagination span {
+        color: #fff;
+    }
+    .fight-against-section .fight-about .secondary-img {
+        top: 187px;
+        width: 80%;
+    }
+    .fight-against-section .fight-content {
+        max-width: 100%;
+        padding: 0;
+    }
+    .breadcrumb-area-inner {
+        background-position: center right -817px;
+        padding: 60px 0 55px;
+    }
+    .vaaber-img {
+        right: 0%;
+    }
+    .service-tab-wrapper {
+        padding: 120px 0 113px;
+    }
+    .tab-img {
+        padding-right: 40px;
+    }
+    .blog-widget .news-subscribe .formcontrol {
+        margin: 0;
+    }
+    .challenge-section {
+        margin-top: 110px;
+    }
+    .fight-list.challenge-list .fight-list-2 {
+        padding-left: 50px;
+    }
+    .challenge-wrappper {
+        padding: 120px 0 100px;
+    }
+    .result-section{
+        margin-top: 110px;
+    }
+    .contact-inner {
+        top: -60px;
+    }
+    .member-details-wrap {
+        padding: 110px 0 120px;
+    }
+    .experience-section{
+        margin-top: 110px;
+    }
+    .question-area {
+        margin-top: 50px;
+    }
+    .sp-service-2 .service-wrapper {
+        padding-top: 80px;
+    }
+    .about-counterup-section{
+        margin-top: 110px;
+    }
+    .csd-about{
+        margin-top: 110px;
+    }
+    .slider-area3 .slider-thumb-wrapper {
+        width: 100%;
+    }
+    .slider-content3 {
+        padding-top: 170px;
+    }
+}
+ 
+/* Tablet: 768px. (Portrait) */
+@media (min-width: 768px) and (max-width: 991px){
+    .header-absolute {
+        position: relative;
+        padding: 12px 0;
+    }
+    .slider-title {
+        font-size: 33px;
+    }
+    .slider-thumb-wrapper {
+        width: 100%;
+        height: 25%;
+    }
+    .fight-video {
+        text-align: center;
+    }
+    .quote-wrapper {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .service-area, .section-content {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .caseslider-area-bg::before {
+        right: -96.8%;
+    }
+    .expert-btn {
+        margin-right: 100px;
+    }
+    .case-eval-form.popupchat-form {
+        margin-top: 40px;
+    }
+    .fight-content {
+        padding: 0;
+    }
+    .footer-right {
+        padding-left: 40px;
+    }
+    .widget.footer-widget .widget-title {
+        margin: 25px 0 20px;
+    }
+    .copyright-area {
+        padding: 22px 60px;
+    }
+    .hatur-img {
+        text-align: center;
+    }
+    .caseslider-area {
+        padding: 72px 25px 115px;
+    }
+    #signupModal .modal-dialog {
+        max-width: 600px;
+    }
+    .coming-soon-content .title {
+        letter-spacing: 20px;
+    }
+    .countdown-item .title {
+        width: 150px;
+        height: 150px;
+    }
+    .coming-soon-page {
+        padding: 40px 0;
+    }
+    .slider-area-2::after {
+        width: 66%;
+    }
+    .slider-area-2 .slider-content {
+        padding-top: 0;
+    }
+    .breadcrumb-area-inner {
+        background-position: center right -1050px;
+        padding: 100px 0 90px;
+    }
+    .fight-against-about .fight-content {
+        margin-top: 120px;
+    }
+    .section-title br {
+        display: none;
+    }
+    .sp-service-2 .fight-content {
+        margin-top: 0;
+    }
+    .sp-service-2 .service-wrapper {
+        padding-left: 60px;
+        padding-bottom: 0;
+    }
+    .vaaber-img {
+        position: relative;
+        right: auto;
+        margin: 30px 0 0;
+    }
+    .vertical-tab-wrapper .nav-link {
+        font-size: 14px;
+        padding: 12px;
+    }
+    .tab-wrapper .nav-link {
+        font-size: 14px;
+        padding: 12px 30px;
+    }
+    .tab-img {
+        padding-right: 0;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .tab-content.custom-tab-content {
+        margin-top: 70px;
+    }
+    .meta-box-absolute {
+        position: relative;
+    }
+    .details-page-content {
+        margin-top: 107px;
+    }
+    .blog-widget .news-subscribe .formcontrol {
+        margin: 0;
+    }
+    .about-case .service-tab-content .fight-heading {
+        margin-top: 70px;
+    }
+    .chanllenge-img-right {
+        text-align: left;
+        margin-top: 25px;
+    }
+    .process-section {
+        margin-top: 105px;
+    }
+    .process-img {
+        margin-top: 30px;
+    }
+    .chanllenge-img {
+        margin-bottom: 20px;
+    }
+    .challenge-content {
+        position: relative;
+        z-index: 99;
+    }
+    .contact-inner {
+        top: -60px;
+    }
+    .member-details-wrap {
+        padding: 110px 0 40px;
+        padding-left: 80px;
+    }
+    .experience-section{
+        margin-top: 110px;
+    }
+    .contact-info-area.member-info-inner {
+        position: relative;
+        top: -80px;
+    }
+    .chanllenge-img.experience-img {
+        margin-bottom: 0;
+        margin-top: 40px;
+        text-align: center;
+    }
+    .progress-bar-area {
+        margin-top: 30px;
+    }
+    .question-area {
+        margin-top: 50px;
+    }
+    .faq-area .contact-inner {
+        padding: 110px 80px 120px;
+    }
+    .logo-desktop{
+        display: none;
+    }
+    .logo-mobile{
+        display: block;
+    }
+    .slider-area-2 .slider-content-wrap {
+        padding-top: 0;
+    }
+    .slider-thumb-wrapper {
+        height: 22%;
+    }
+    .about-counterup-section{
+        margin-top: 60px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .slider-content {
+        height: auto;
+        padding: 140px 0;
+    }
+    .social-share-absolute {
+        bottom: 40px;
+        right: 30px;
+    }
+    .slider-dots-wrapper {
+        right: 20px;
+    }
+    .slider-content3 {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+    .slider-area3 .slider-content-wrap, .slider-area.slider-area3 {
+        min-height: unset;
+        height: unset;
+    }
+    .slider-area-2.slider-area4::after {
+        width: 100% !important;
+    }
+    .slider-area-2.slider-area4 .slider-content-wrap {
+        background-image: none;
+    }
+    .slider-area-2.slider-area4 .slider-content-wrap,
+    .slider-area-2.slider-area4 {
+        height: unset;
+        min-height: unset;
+    }
+    .slider-area-2.slider-area4 .slider-content {
+        display: block;
+        padding: 150px 0;
+    }
+    .slider-area4 .slider-arrow-wrapper {
+        left: 50%;
+        bottom: 7%;
+        transform: translate(-50%);
+        color: #fff;
+    }
+}
+
+/* Tablet: 768px. (Landscape) */
+@media (min-width: 660px) and (max-width: 740px) {
+    .lg-img-wrap {
+        align-items: center;
+        height: 100vh;
+    }
+    .breadcrumb-area-inner {
+        background-position: center right -1194px !important;
+    }
+}
+@media (min-width: 700px) and (max-width: 740px) {
+    .breadcrumb-area-inner {
+        background-position: center right -1156px !important;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .slider-content {
+        height: auto;
+        padding: 120px 15px;
+    }
+}
+@media (min-width: 410px) and (max-width: 414px) {
+    .breadcrumb-area-inner {
+        background-position: center right -1380px !important;
+    }
+}
+
+/* Mobile Device: 375px. */
+@media only screen and (min-width: 320px) and (max-width: 767px){    
+    h2{
+        font-size: 32px;
+        line-height: 1.3;
+    }
+    .header-absolute {
+        position: relative;
+        padding: 12px 0;
+    }
+    .slider-title {
+        font-size: 30px;
+    }
+    .slider-lg-img img {
+        max-width: 240px;
+        margin: 0 auto;
+    }
+    .lg-img-wrap {
+        display: flex;
+        justify-content: center;
+    }
+    .slider-para {
+        margin-top: 20px;
+        line-height: 24px;
+    }
+    .slider-content-wrap {
+        margin-top: 0;
+    }
+    .slider-area {
+        min-height: 300px;
+    }
+    .primary-btn, .secondary-btn {
+        padding: 9px 15px;
+        font-size: 13px;
+    }
+    .fight-against-section{
+        margin-top: 0;
+        padding: 0;
+    }
+    .quote-wrapper::after, .fight-video::after, .bg-left-half::before, .bg-left-half::after, .bg-left::before, .bg-right::before,
+    .caseslider-area-bg::before, .latest-news-section::before, .footer-area-inner::before {
+        display: none;
+    }
+    .quote-wrapper, .fight-video {
+        margin-top: 60px;
+    }
+    .service-section {
+        margin-top: 60px;
+    }
+    .service-wrapper {
+        padding-top: 56px;
+    }
+    .service-area {
+        padding: 0 15px;
+    }
+    .section-content, .section-content-white {
+        margin-bottom: 0;
+        padding: 0 20px;
+    }
+    .counterup-section {
+        margin-top: 20px;
+    }
+    .single-counterup .counter-para {
+        font-size: 20px;
+    }
+    .casestudy-wrapper {
+        padding-top: 52px;
+    }
+    .casestudy-slider-item .caseimg,
+    .casestudy-slider-item .casecontent {
+        width: 100%;
+    }
+    .caseslider-area-bg {
+        padding: 0 15px;
+    }
+    .casestudy-slider-item{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .caseslider-area {
+        padding: 40px 0 0;
+        background: transparent;
+    }
+    .casestudy-section {
+        margin-top: 60px;
+    }
+    .casestudy-wrapper .section-content-white {
+        padding-bottom: 55px;
+    }
+    .casecontent {
+        padding: 34px 0;
+    }
+    .testimonial-item {
+        padding: 50px 20px 109px;
+    }
+    .testimonial-section {
+        margin-top: 52px;
+    }
+    .testimonial-area {
+        margin-top: 40px;
+    }
+    .section-content-flex {
+        margin-bottom: 0;
+    }
+    .team-area {
+        padding: 0 15px 60px;
+        background: inherit;
+    }
+    .section-content-flex {
+        flex-wrap: wrap;
+        padding: 0 15px;
+        justify-content: center;
+    }
+    .team-section-wrappper {
+        padding-top: 47px;
+    }
+    .expert-btn {
+        margin: 15px auto 0;
+    }
+    .team-section, .case-eval-section {
+        margin-top: 60px;
+    }
+    .case-eval-section-wrappper {
+        padding: 50px 0 58px;
+    }
+    .case-eval-form.popupchat-form {
+        padding: 15px;
+        margin-top: 40px;
+    }
+    .news-arrow-wrapper {
+        margin-top: 20px;
+    }
+    .latest-news-section-wrappper {
+        padding-top: 48px;
+        padding-bottom: 30px;
+    }
+    .latest-news-section {
+        background: transparent;
+    }
+    .footer-left {
+        padding: 60px 0;
+    }
+    .widget.footer-widget .widget-title {
+        margin: 35px 0 23px;
+    }
+    .widget.widget_nav_menu ul li {
+        margin: 10px 0;
+    }
+    .footer-right {
+        padding-left: 15px;
+        padding-top: 23px;
+        padding-bottom: 147px;
+    }
+    .copyright-area {
+        padding: 22px 15px;
+    }
+    .copyright-area-inner p {
+        line-height: 1.5;
+    }
+    .member-box.section-content-flex {
+        justify-content: space-between;
+    }
+    .blog-grid .title {
+        margin-top: 8px;
+        line-height: 1.4;
+    }
+    .quote-wrapper, .fight-video {
+        margin-top: 60px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fight-video {
+        text-align: center;
+    }
+    .modal-right .modal-dialog-slideout .modal-content {
+        padding: 15px 30px 15px 15px;
+    }
+    #signupModal .modal-dialog {
+        max-width: 100%;
+    }
+    #signupModal .signup-form-area {
+        padding: 30px;
+    }
+    .signin-btn {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    .signin-social {
+        flex-wrap: wrap;
+        margin-top: 0;
+    }
+    .signin-social .signin-social-link {
+        margin-top: 20px;
+    }
+    #signupModal .signup-form-area {
+        min-height: auto;
+    }
+    #signupModal .modal-close-btn {
+        top: 0;
+        right: 0;
+        background: transparent;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .countdown-item .title .time {
+        font-size: 24px;
+    }
+    .countdown-item .text {
+        font-size: 12px;
+    }
+    .countdown-item .title {
+        width: 100px;
+        height: 100px;
+    }
+    .coming-soon-content .title {
+        letter-spacing: 8px;
+        font-size: 24px;
+    }
+    .coming-soon-page .social-share {
+        margin-top: 60px;
+    }
+    .news-subscribe .news-submit-btn {
+        padding: 10px 10px;
+        font-size: 12px;
+    }
+    .news-subscribe input {
+        padding: 0 100px 0 24px;
+    }
+    .coming-soon-page {
+        padding: 40px 0;
+    }
+    .error-content .title {
+        letter-spacing: 10.16px;
+    }
+    .error-content {
+        padding: 40px 0;
+    }
+    .slider-area-2::after {
+        width: 100%;
+    }
+    .slider-btn {
+        flex-wrap: wrap;
+    }
+    .slider-area-2 .slider-content-wrap {
+        background-image: none;
+    }
+    .breadcrumb-area-inner {
+        background-position: center right -1418px;
+        padding: 30px 0 20px;
+    }
+    .breadcrumb-inner {
+        padding-left: 40px;
+    }
+    .breadcrumb-inner .page-title {
+        font-size: 32px;
+    }
+    .fight-against-about .fight-about {
+        margin-top: 60px;
+    }
+    .about-counterup-section .section-content{
+        padding: 0;
+    }
+    .about-team, .service-testimonial{
+        margin-bottom: 60px;
+    }
+    .section-title br {
+        display: none;
+    }
+    .sp-service-2 .service-wrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+    .vaaber-img {
+        position: relative;
+        right: auto;
+        margin: 30px 0 0;
+    }
+    .service-section.sp-section {
+        margin-top: 50px;
+    }
+    .service-section.sp-section .section-title{
+        margin-bottom: 0;
+    }
+    .service-section.sp-section .service-wrapper {
+        padding-top: 7px;
+    }
+    .sp-service-2 .fight-content {
+        margin-top: 0;
+        padding: 0;
+    }
+    .vertical-tab-wrapper .nav-link {
+        font-size: 14px;
+        padding: 12px;
+    }
+    .tab-wrapper .nav-link {
+        font-size: 14px;
+        padding: 12px 30px;
+    }
+    .tab-img {
+        padding-right: 0;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .tab-content.custom-tab-content {
+        margin-top: 30px;
+    }
+    .service-vertical-tab {
+        margin-top: 60px;
+    }
+    .quote-text {
+        margin-top: 30px;
+        line-height: 25px;
+    }
+    .service-tab-wrapper {
+        padding: 60px 15px;
+    }
+    .tab-wrapper .nav-link {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+    .tab-content .fight-heading {
+        line-height: 40px;
+        margin-top: 32px;
+    }
+    .tab-details .fight-heading {
+        margin-top: 0;
+    }
+    .blog-page .section-content-flex {
+        padding: 0;
+    }
+    .meta-box-absolute {
+        position: relative;
+    }
+    .details-page-content {
+        margin-top: 30px;
+    }
+    .blog-widget .news-subscribe .formcontrol {
+        margin: 0;
+    }
+    .blog-details {
+        padding: 40px 15px 30px;
+    }
+    .blog-details-page {
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+    .date-content, .meta-content {
+        padding: 3px 10px;
+        font-size: 14px;
+    }
+    .meta-info .info {
+        margin-left: 0;
+        font-size: 12px;
+    }
+    .blockquote-content, .blog-misc, .comment-box {
+        flex-wrap: wrap;
+    }
+    .blockquote-content .content-wrap {
+        margin-left: 0;
+    }
+    blockquote {
+        border-left-width: 5px;
+        padding: 40px 15px;
+    }
+    blockquote .icon-wrap {
+        margin-bottom: 20px;
+    }
+    .blockquote-content .content-wrap h5 {
+        margin-top: 10px;
+    }
+    .comment-img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .comments-area {
+        background: #F9F9F9;
+        padding: 40px 15px;
+    }
+    .comment-box-wrapper {
+        padding: 0 5px 37px;
+    }
+    .comment-reply {
+        padding-left: 20px;
+    }
+    .comment-form-wrapper {
+        padding: 27px 0 0;
+    }
+    .blog-widget .comment-img img {
+        width: 80px;
+    }
+    .meta-box-absolute {
+        display: none;
+    }
+    .case-study-page .casecontent {
+        padding: 10px 0;
+    }
+    .about-case {
+        margin-top: 60px;
+    }
+    .about-case .service-tab-content .fight-heading {
+        margin-top: 30px;
+    }
+    .chanllenge-img-right {
+        text-align: left;
+        margin-top: 25px;
+    }
+    .process-section {
+        margin-top: 105px;
+    }
+    .process-img {
+        margin-top: 30px;
+    }
+    .chanllenge-img {
+        margin-bottom: 20px;
+    }
+    .challenge-content {
+        position: relative;
+        z-index: 99;
+    }
+    .fight-list.challenge-list .fight-list-2 {
+        padding-left: 0;
+    }
+    .challenge-section {
+        margin-top: 50px;
+    }
+    .challenge-wrappper {
+        padding: 50px 15px;
+    }
+    .process-section {
+        margin-top: 50px;
+    }
+    .result-section{
+        margin-top: 60px;
+    }
+    .contact-inner {
+        top: 0px;
+        margin-bottom: 60px;
+        padding: 50px 30px 60px;
+    }
+    .contact-form .case-eval-form.popupchat-form {
+        padding: 30px 15px;
+    }
+    .member-details-wrap {
+        padding: 110px 20px 40px;
+    }
+    .experience-section{
+        margin-top: 110px;
+    }
+    .contact-info-area.member-info-inner {
+        position: relative;
+        top: -20px;
+    }
+    .chanllenge-img.experience-img {
+        margin-bottom: 0;
+        margin-top: 40px;
+        text-align: center;
+    }
+    .progress-bar-area {
+        margin-top: 30px;
+    }
+    .member-details {
+        margin: 60px 0 0;
+    }
+    .member-details .memeber-img {
+        position: relative;
+        top: -50px;
+    }
+    .experience-section, .skill-section {
+        margin-top: 50px;
+    }
+    .skill-section {
+        margin-bottom: 60px;
+    }
+    .faq-area .contact-inner {
+        padding: 50px 15px 60px;
+    }
+    .faq-area .title-wrap {
+        padding: 20px 15px;
+    }
+    .faq-area .title.text-center {
+        margin-bottom: 30px;
+    }
+    .question-area .comment-form-wrapper .case-eval-form.popupchat-form {
+        margin-top: 31px;
+    }
+    .question-area {
+        margin-bottom: 60px;
+    }
+    .pagination{
+        margin-top: 25px;
+    }
+    .latest-news-section-wrappper.legal-wrpp {
+        margin-top: 20px;
+        padding-bottom: 60px;
+        padding-top: 0;
+    }
+    .single-content.casecontent.mt-40 {
+        padding: 0;
+    }
+    .single-content.casecontent .title {
+        line-height: 1.5;
+    }
+    .footer-logo img {
+        width: 55%;
+    }
+    .logo-desktop{
+        display: none;
+    }
+    .logo-mobile{
+        display: block;
+    }
+    .latest-news-section-wrappper {
+        padding-bottom: 25px;
+    }
+    .about-counterup-section .section-title {
+        margin-bottom: 0;
+    }
+    .member-box.member-absolute.section-content-flex {
+        padding: 5px 15px;
+    }
+    .team-page-group .latest-news-section-wrappper {
+        padding-bottom: 0;
+    }
+    .slider-area::before,
+    .slider-area::after {
+        width: 100%;
+    }
+    .slider-content-box {
+        display: flex !important;
+        align-items: center;
+        height: 100vh;
+    }
+    .slider-area-2 .slider-content-wrap, .slider-2-item .slider-content-box {
+        height: inherit;
+    }
+    .slider-2-item .slider-main-img {
+        margin-top: 35px;
+        margin-bottom: 30px;
+    }
+    .slider-btn .video-active i {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .slider-thumb-wrapper {
+        width: 100%;
+        height: 16%;
+    }
+    .about-counterup-section{
+        margin-top: 50px;
+    }
+    
+    .slider-content3 {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .slider-area3 .slider-content-wrap, .slider-area.slider-area3 {
+        min-height: unset;
+        height: unset;
+    }
+}
+@media only screen and (min-width: 470px) and (max-width: 767px){
+    .breadcrumb-area-inner {
+        background-position: center right -1314px;
+    }
+    .service-info .service-content {
+        top: 39%;
+    }   
+    .quote-text {
+        line-height: 30px;
+    }
+    .tab-wrapper .nav-link {
+        font-size: 16px;
+        padding: 12px 24px;
+    }
+}
+
+@media only screen and (max-width: 380px){    
+    h4{
+        font-size: 16px;
+        line-height: 1;
+    } 
+    .collapse-mmenu .navbar-nav {
+        padding: 20px;
+    }    
+    .fight-content {
+        padding: 0;
+    }  
+    .latest-news-section-wrappper {
+        padding-bottom: 55px;
+    }
+    .home1-news .latest-news-section-wrappper {
+        padding-bottom: 35px;
+    }
+    .slider-btn .video-active {
+        margin-left: 15px;
+    }
+    .slider-btn {
+        flex-wrap: nowrap;
+    }
+    .fight-quote i {
+        font-size: 35px;
+    }
+    .fight-quote .heading {
+        font-size: 14px;
+    }
+    .fight-quote img {
+        width: 100px;
+        margin-top: 15px;
+    }
+    .fight-quote {
+        padding: 0 20px 0;
+    }
+    .fight-heading {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 320px){ 
+    h4{
+        font-size: 16px;
+        line-height: 1;
+    } 
+    .breadcrumb-area-inner {
+        background-position: center right -1473px;
+    }
+    .latest-news-section-wrappper,
+    .home1-news  .latest-news-section-wrappper {
+        padding-bottom: 55px;
+    } 
+    .slider-area-2 .slider-btn {
+        flex-wrap: wrap;
+    }
+    .slider-area-2 .slider-btn .video-active{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .slider-thumb-wrapper {
+        height: 13%;
+    }
+}

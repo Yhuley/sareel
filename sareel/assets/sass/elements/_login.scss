@@ -1,0 +1,117 @@
+.sign-para {
+    margin-top: 12px;
+    line-height: 20px;
+}
+.search-modal-form {
+    margin-top: 25px;
+}
+.form-misc {
+    @include dFlex($flex);
+    @include justCont(space-between);
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+.popupchat-submit-btn {
+    display: block;
+    width: 100%;
+    margin-top: 13px;
+    letter-spacing: 0.32px;
+    @include box-shadow(0, 15px, 10px, #B19D600F, $inset: false);
+}
+.alternate-signin {
+    margin-top: 22px;
+}
+.signin-btn {
+    color: var(--heading-color);
+    background: transparent;
+    display: inline-block;
+    padding: 13px 30px;
+    font-size: 24px;
+    cursor: pointer;
+    @include transition($transition);
+    &.active,
+    &:hover{
+        background: var(--primary-color);
+        color: $white;
+    }
+}
+.forgot-pass a{
+    color: var(--primary-color);
+}
+.singin-with{
+    letter-spacing: 2.8px;
+    font-size: 14px;
+}
+.signin-social {
+    margin-top: 20px;
+    .signin-social-link {
+        padding: 12px 20px;
+        border: 1px solid #EFEFEF;
+        display: inline-block;
+
+        + .signin-social-link{
+            margin-left: 20px;
+        }
+        span {
+            @include dFlex($flex);
+            @include alignItem(center);
+        }
+    }
+    i {
+        font-size: 11px;
+        margin-right: 6px;
+    }
+}
+#signupModal {
+    .modal-close {
+        opacity: 1;
+    }
+    .modal-close-btn {
+        border: none;
+        outline: none;
+        position: absolute;
+        top: -20px;
+        right: -30px;
+        background: #fff;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        color: #000;
+        font-size: 14px;
+        border-radius: 100%;
+        z-index: 99999;
+        cursor: pointer;
+    }
+    .modal-body{
+        padding: 0;
+    }
+    .modal-dialog {
+        max-width: 1300px;
+        border-radius: 0;
+    }
+    .modal-content {
+        border: 0;
+        border-radius: 0;
+    }
+    &.modal.show .modal-dialog {
+        -webkit-transform: translate(0,0%);
+        transform: translate(0, 0%);
+    }
+    .signup-form-area {
+        padding: 50px 50px 50px 80px;
+        min-height: 780px;
+    }
+    .signup-img-area {
+        background: var(--secondary-color);
+        @include dFlex($flex);
+        @include justCont(center);
+        @include alignItem(center);
+        height: 100%;
+        img{
+            max-width: 500px;
+        }
+    }
+}
+.have-account{
+    margin-top: 22px;
+}

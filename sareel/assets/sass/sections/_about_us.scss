@@ -1,0 +1,33 @@
+.fight-against-about{
+    .fight-about {
+        position: relative;
+        .secondary-img {
+            position: absolute;
+            bottom: -80px;
+            right: 0;
+        }
+    }
+    .fight-content {
+        max-width: 600px;
+    }
+}
+.fight-list {    
+    @include dFlex($flex);
+    @include justCont(space-between);
+    flex-wrap: wrap;
+
+    ul {
+        padding: 0;
+        margin-bottom: 0;
+        li {
+            margin-top: 20px;
+            a{
+                color: var(--paragraph-1-color);
+                font-weight: bold;
+            }
+        }
+        i{
+            color: var(--primary-color);
+        }
+    }
+}

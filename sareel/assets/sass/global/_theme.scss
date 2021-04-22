@@ -1,0 +1,105 @@
+.primary-btn,
+.secondary-btn,
+.hayhay-btn {
+    color: $white;
+    background: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    display: inline-block;
+    padding: 13px 30px;
+    cursor: pointer;
+    font-family: var(--body-font);
+    @include transition($transition);
+    &:active,
+    &:hover{
+        background: var(--secondary-color);
+        border-color: var(--secondary-color);
+        color: $white !important;
+    }
+}
+.secondary-btn{
+    padding: 11px 20px;
+    background: transparent;
+    color: var(--primary-color);
+    &:active,
+    &:hover{
+        color: $white;
+        background: var(--primary-color);
+    }
+}
+.hayhay-btn{
+    &:active,
+    &:hover{
+        border-color: var(--primary-color);
+    }
+}
+.read-more-btn{
+    color: var(--primary-color);
+    font-weight: 700;
+    font-family: var(--heading-font);
+    margin-top: 25px;
+    display: block;
+}
+.commentator-name{
+    color: var(--paragraph-1-color);
+    font-weight: 500;
+}
+.commentator-para{
+    color: #979797;
+    font-size: 11px;
+    line-height: 16px;
+}
+.commentator-img img {
+    min-width: 50px;
+}
+.msg-box-absolute {
+    position: absolute;
+    left: 140%;
+    top: -6px;
+    width: 310px;
+    z-index: 999;
+}
+.msg-box {
+    background: var(--primary-color);
+    position: relative;
+    &:before,
+    &:after {
+        content: "";
+        position: absolute;
+        left: -17px;
+        top: 20px;
+        width: 0;
+        height: 0;
+        border-top: 13px solid transparent;
+        border-right: 26px solid var(--primary-color);
+        border-bottom: 13px solid transparent;
+        transform: rotate(-25deg);
+        z-index: -1;
+    }
+    &:after {
+        border-right: 26px solid $white;
+        left: -15px;
+        top: 19px;
+        z-index: 1;
+    }
+}
+.msg-box-close {
+    position: absolute;
+    right: 8px;
+    top: 6px;
+    font-size: 8px;
+    color: var(--paragraph-1-color);
+    cursor: pointer;
+}
+.msg-box-bg{
+    background: $white;
+    padding: 15px;
+    border: 1px solid var(--primary-color);
+}
+.prev-icon,
+.next-icon {
+    cursor: pointer;
+}
+.modal {
+    padding-right: 0 !important;
+    z-index: 99999;
+}

@@ -1,0 +1,48 @@
+.blog-grid{
+    .publish-date{
+        display: block;
+        margin-top: 16px;
+        font-size: 14px;
+        color: var(--paragraph-1-color);
+    }
+    .title{
+        margin-top: 6px;
+        &:hover{
+            color: var(--primary-color);
+        }
+    }
+    .blog-btn{
+        margin-top: 22px;
+    }
+}
+.news-arrow-wrapper i {
+    font-size: 12px;
+    font-weight: medium;
+    color: #888888;
+    @include transition($transition);
+    &:hover{
+        @include transform(scale(1.4));
+        color: var(--primary-color);
+    }
+}
+.latest-news-section {
+    position: relative;
+    &:before{
+        content: "";
+        position: absolute;
+        background: #fff;
+        left: 0;
+        bottom: 0px;
+        width: 64%;
+        height: 44%;
+        z-index: 1;
+    }
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,68 @@
+.breadcrumb-area {
+    position: relative;
+}
+.breadcrumb-area-inner{
+    background-position: center right -23px;
+    background-repeat: no-repeat;
+    padding: 120px 0 115px;
+
+}
+.about-wrapper .breadcrumb-area-inner{
+    background-image: url('../img/others/bread.png');
+}
+.practiceee-wrapper .breadcrumb-area-inner{
+    background-image: url('../img/others/bread-2.png');
+}
+.service-details-wrapper .breadcrumb-area-inner{
+    background-image: url('../img/others/bread-3.png');
+}
+.blog-wrapper .breadcrumb-area-inner{
+    background-image: url('../img/others/bread-4.png');
+}
+.blog-details-wrapper .breadcrumb-area-inner{
+    background-image: url('../img/others/bread-5.png');
+}
+.case-study-wrapper .breadcrumb-area-inner{
+    background-image: url('../img/others/bread-6.png');
+}
+.contact-wrapper .breadcrumb-area-inner{
+    background-image: url('../img/others/bread-7.png');
+}
+.team-single-wrapper .breadcrumb-area-inner{
+    background-image: url('../img/others/bread-8.png');
+}
+.faq-wrapper .breadcrumb-area-inner{
+    background-image: url('../img/others/bread-9.png');
+}
+.legal-wrapper .breadcrumb-area-inner{
+    background-image: url('../img/others/bread-10.png');
+}
+.legal-details-wrapper .breadcrumb-area-inner{
+    background-image: url('../img/others/bread-11.png');
+}
+.breadcrumb-inner {
+    padding-left: 140px;
+    .page-title {
+        font-size: 42px;
+        color: $white;
+        margin-bottom: 15px;
+    }
+    .breadcrumb-list{
+        ul{
+            padding: 0;
+
+            li{
+                display: inline-block;
+
+                a{
+                    color: $white;
+                }
+            }
+            .span{
+                color: $white;
+                padding: 0 10px;
+                display: inline-block;
+            }
+        }
+    }
+}

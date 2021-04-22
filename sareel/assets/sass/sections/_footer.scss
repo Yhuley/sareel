@@ -1,0 +1,137 @@
+.widget ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.widget ul li {
+	display: block;
+	margin: 8px 0;
+	-ms-word-break: break-word;
+	word-break: break-word;
+}
+
+.widget ul li:first-child {
+	margin-top: 0px;
+}
+
+.widget ul li:last-child {
+	margin-bottom: 0px;
+}
+
+.widget ul li a {
+	color: inherit;
+	@include transition($transition);
+}
+
+.widget ul li a:hover {
+	color: var(--main-color-one);
+}
+
+.widget.widget_nav_menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.widget.widget_nav_menu ul li {
+	margin: 15px 0
+}
+.widget.widget_nav_menu ul li:first-child{
+	margin-top: 0;
+}
+.widget.widget_nav_menu ul li:last-child{
+	margin-bottom: 0;
+}
+.widget.widget_nav_menu ul li a {
+	border: none;
+}
+.widget.widget_nav_menu ul li>ul{
+	margin-left:15px
+}
+
+.widget.footer-widget .widget-title {
+	color: $white;
+	margin: 20px 0 48px;
+}
+
+.widget.footer-widget ul li a ,
+.widget.footer-widget ul li,
+.widget.footer-widget .footer-content p {
+	color: $svColor;
+}
+
+.widget.footer-widget ul li a:hover{
+	color: $white;
+}
+.footer-content{
+	.para{
+		margin-top: 5px;
+		span{
+			margin-right: 10px;
+		}
+	}
+}
+.read-more-btn.footer-btn {
+	margin-top: 8px;
+	color: $white;
+	&:hover{
+		color: #000;
+	}
+}
+.about-widget p {
+    color: #2a2a2a;
+    line-height: 26px;
+    margin-top: 25px;
+}
+.width-350{
+	max-width: 350px;
+}
+.width-220{
+	max-width: 220px;
+}
+.footer-right:before{
+	z-index: 0;
+}
+.footer-left,
+.footer-right{
+	padding: 120px 0 192px;
+}
+.footer-right{
+	position: relative;
+	padding-left: 92px;
+}
+.footer-area-inner{
+	position: relative;
+	&:before {
+		content: "";
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		height: 100%;
+		background: url('../img/footer/footer-bg.png') no-repeat center bottom/cover;
+		z-index: 9;
+	}
+}
+.footer-widget{
+	position: relative;
+	z-index: 99;
+}
+
+.copyright-area-inner{
+    a {
+        color: var(--heading-color);
+
+        &:hover{
+            color: var(--primary-color);
+        }
+    }
+}
+.copyright-area {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+	padding: 22px 70px;
+	text-align: center;
+    z-index: 99;
+}

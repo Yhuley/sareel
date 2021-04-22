@@ -1,0 +1,86 @@
+/*
+Theme Name: Sareel - Lawyer HTML Template
+Theme URI: http://zwin.io/html/sareel
+Author: Zwin
+Author URI: http://zwin.io/
+Description: Sareel is a lawyer HTML template.
+Version: 1.0.1
+*/
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+# Typography
+# Normalize
+# Accessibility
+# Globals
+# Alignments
+# Clearings
+# Posts and pages
+# Captions
+# Galleries
+# Unit test
+# guterberg
+# Gutenberg	Default Style
+# Block Color Palette Colors
+# Sections
+    ## Breadcrumb
+    ## Comments
+    ## Widgets
+    ## Nav Bar
+    ## Info Bar
+    ## Header
+
+# Elements
+    ## Back Top
+    ## Preloader
+    ## Search Popup
+    ## Video Popup
+    ## Button
+    ## Section Title
+--------------------------------------------------------------*/
+
+//== Global Design
+@import "global/_mixins";
+@import "global/_variables";
+@import "global/_global";
+@import "global/_gutenberg";
+//== Pages
+//== Sections
+@import "sections/_breadcrumb";
+@import "sections/_comments";
+@import "sections/_widgets";
+@import "sections/_navbar";
+@import "sections/_info_bar";
+@import "sections/_header";
+// @import "sections/_slider";
+@import "sections/_home_slider";
+@import "sections/_slider";
+@import "sections/_fight_against";
+@import "sections/_service";
+@import "sections/_counterup";
+@import "sections/_case_study";
+@import "sections/_testimonial";
+@import "sections/_teammember";
+@import "sections/_case_eval";
+@import "sections/_latest_news";
+@import "sections/_about_us";
+@import "sections/_service_page";
+@import "sections/_blog";
+@import "sections/_contact";
+@import "sections/_faq";
+@import "sections/_legal_advice";
+@import "sections/_footer";
+//== Elements
+@import "elements/_back_top";
+@import "elements/_preloader";
+@import "elements/_popup_chat";
+@import "elements/_popup_search";
+//== Main css
+@import "global/_theme";
+@import "elements/_mobile_menu";
+@import "elements/_coming_soon";
+@import "elements/_error_404";
+@import "elements/_login";

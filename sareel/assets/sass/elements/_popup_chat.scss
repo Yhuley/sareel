@@ -1,0 +1,149 @@
+
+.popupchat-absolute {
+    position: absolute;
+    top: 88%;
+    left: 2%;
+    z-index: 999;
+}
+.popupchat .chat-active {
+    display: inline-block;
+    font-size: 20px;
+    color: $white;
+    background: var(--primary-color);
+    width: 46px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    padding-left: 3px;
+    border-radius: 100%;
+    position: relative;
+    animation: pulse 1s infinite;
+}
+.popupchat {
+    display: inline-block;
+    border: 1px solid var(--primary-color);
+    border-radius: 100%;
+    padding: 10px;
+    position: fixed;
+}
+  
+  @-webkit-keyframes pulse {
+    0% {
+      -webkit-box-shadow: 0 0 0 5px rgba($white, 0.9);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 10px rgba($white, 0.5);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba($white, 0);
+    }
+  }
+  @keyframes pulse {
+    0% {
+      -moz-box-shadow: 0 0 0 0 rgba($color333, 0.4);
+      box-shadow: 0 0 0 0 rgba($color333, 0.4);
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 10px rgba($color333, 0);
+        box-shadow: 0 0 0 10px rgba($color333, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba($color333, 0);
+        box-shadow: 0 0 0 0 rgba($color333, 0);
+    }
+  }
+/* Bootstrap Modal Right */
+.modal-right .modal-dialog-slideout {
+    min-height: 100%; 
+    margin: 0 0 0 auto;
+    background: #fff;
+    position: relative;
+    z-index: 99999;
+}
+.modal-right.modal.fade .modal-dialog.modal-dialog-slideout {
+    -webkit-transform: translate(100%,0)scale(1);
+    transform: translate(100%,0)scale(1);
+}
+.modal-right.modal.fade.show .modal-dialog.modal-dialog-slideout {
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+    display: flex;
+    height: 100%;
+    right: -17px;
+}
+.modal-right.modal.fade.show .modal-dialog.modal-dialog-slideout .modal-body{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.modal-right .modal-dialog-slideout .modal-content{
+    border: 0;
+    padding: 60px;
+}
+.modal-right .modal-dialog-slideout .modal-content .modal-header,
+.modal-right .modal-dialog-slideout .modal-content .modal-body{
+    padding: 0;
+}
+.modal-right .modal-dialog-slideout .modal-content .modal-header {
+    @include dFlex($flex);
+    padding-bottom: 30px;
+}
+.modal-right .modal-dialog-slideout .modal-header .modal-title {
+    float:left;
+    letter-spacing: 9.1px;
+    color: var(--secondary-color);
+    font-weight: 400;
+    font-family: var(--body-font);
+}
+.modal-open{
+    padding: 0 !important;
+}
+.modal-right {
+    z-index: 99999;
+}
+.modal-close-btn {
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--paragraph-2-color);
+    border: none;
+    outline: none;
+    &:active,
+    &:focus,
+    &:hover {
+        border: none;
+        outline: none;
+        color: #000;
+    }
+}
+.popupchat-form .form-control, .service-select {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 14px;
+    color: #C4C4C4;
+    background-color: #fff;
+    border: 1px solid #EFEFEF;
+    border-radius: 0;
+}
+.service-select {
+    -webkit-appearance: none;
+    position: relative;
+    background: url('../img/icon/arrow-down.png') no-repeat scroll right 20px center;
+    cursor: pointer;
+}
+.service-select.open {
+    background: url('../img/icon/arrow-up.png') no-repeat scroll right 20px center;
+}
+.popupchat-form .form-control {
+    @include placeholder-color($placeholderColor);
+}
+.popupchat-form .form-control:focus {
+    color: #111;
+}
+
+.popupchat-submit-btn{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: var(--heading-font);
+    color: $white;
+    cursor: pointer;
+}

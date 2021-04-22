@@ -1,0 +1,100 @@
+.testimonial-img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+.testimonial-icon i {
+    position: relative;
+    top: -10px;
+    font-size: 35px;
+    color: var(--primary-color);
+}
+.testimonial-item .desingnation{
+    color: var(--secondary-color);
+}
+.testimonial-item{
+    background: $white;
+    padding: 50px 50px 109px;
+}
+.testimonial-active-area {
+    position: relative;
+    @include box-shadow(0px, 0px, 30px, rgba(#000, 0.1), $inset: false);
+}
+.testimonial-dots-wrapper {
+    position: absolute;
+    left: 50%;
+    bottom: 52px;
+    z-index: 99;
+    @include transform(translate(-50%));
+}
+.gol-dots{
+    .slick-dots {
+        @include dFlex($flex);
+        @include justCont(center);
+        @include alignItem(center);
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        z-index: 999;
+
+        li {
+            display: inline-block;
+            margin: 0 5px;
+        }
+
+        button {
+            display: block;
+            width: 14px;
+            height: 14px;
+            padding: 0;
+            border-radius: 100%;
+            border: 1px solid #efefef;
+            background-color: #efefef;
+            text-indent: -9999px;
+            outline: none;
+        }
+        .slick-active {
+            button{
+                border: 1px solid var(--primary-color);
+                background-color: var(--primary-color);
+            }
+        }
+    }
+}
+.testimonial-content{
+    .title {
+        margin-top: 38px;
+    }
+    .para{
+        margin-top: 34px;
+    }
+}
+.prev-slick-img img,
+.next-slick-img img{
+    width: 152px;
+    height: 152px;
+    border-radius: 100%;
+}
+.next-prev-arrow {
+    height: 100%;
+    @include dFlex($flex);
+    @include justCont(center);
+    @include alignItem(center);
+}
+.next-prev-inner{
+    position: relative;
+    &:before{
+        content: "";
+        position: absolute;
+        border-radius: 100%;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(#fff, 0.3);
+    }
+}
+
+
+

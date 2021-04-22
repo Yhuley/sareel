@@ -1,0 +1,27 @@
+/*--------------------------------------------------------------
+	## Header
+--------------------------------------------------------------*/
+.header-absolute{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	padding: 18px 0 20px;
+	z-index: 9999;
+}
+.logo-mobile, .logo-sticky{
+	display: none;
+}
+.header-area.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #333;
+	z-index: 9999;
+	.logo-sticky{
+		display: block;
+	}
+	.sticky-hide{
+		display: none;
+	}
+}
